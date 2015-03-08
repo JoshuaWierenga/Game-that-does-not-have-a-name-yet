@@ -18,6 +18,15 @@
     <background>background\Gray</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Test_Tree_Object</object>
+    <object>objects\Test_Door_Object</object>
+    <object>objects\Test_Heart_Object</object>
+    <object>objects\Test_Key_Object</object>
+    <object>objects\Test_Crate_Object</object>
+    <object>objects\Test_Overlay_Object</object>
+    <object>objects\Test_Floor_Object</object>
+  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>
