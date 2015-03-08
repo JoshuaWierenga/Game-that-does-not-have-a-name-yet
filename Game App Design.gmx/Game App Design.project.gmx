@@ -27,6 +27,9 @@
     <object>objects\Test_Overlay_Object</object>
     <object>objects\Test_Floor_Object</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\Test_Room</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
