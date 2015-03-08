@@ -6,14 +6,17 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\tree_test</sprite>
-    <sprite>sprites\Door_Test</sprite>
-    <sprite>sprites\Heart_Test</sprite>
+    <sprite>sprites\Test_Tree</sprite>
+    <sprite>sprites\Test_Door</sprite>
+    <sprite>sprites\Test_Heart</sprite>
     <sprite>sprites\Test_Key</sprite>
-    <sprite>sprites\Test_Cube</sprite>
-    <sprite>sprites\Test_Flying_Cube</sprite>
+    <sprite>sprites\Test_Crate</sprite>
+    <sprite>sprites\Test_Overlays</sprite>
+    <sprite>sprites\Test_Floor</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Gray</background>
+  </backgrounds>
   <paths name="paths"/>
   <help>
     <rtf>help.rtf</rtf>
