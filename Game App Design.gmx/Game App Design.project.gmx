@@ -9,6 +9,9 @@
     <sprite>sprites\tree_test</sprite>
     <sprite>sprites\Door_Test</sprite>
     <sprite>sprites\Heart_Test</sprite>
+    <sprite>sprites\Test_Key</sprite>
+    <sprite>sprites\Test_Cube</sprite>
+    <sprite>sprites\Test_Flying_Cube</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
