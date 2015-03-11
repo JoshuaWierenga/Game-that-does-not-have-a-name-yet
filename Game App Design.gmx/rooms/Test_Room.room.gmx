@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="Test_Floor_Object" x="0" y="608" name="inst_1A960DC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Test_Tree_Object" x="189" y="249" name="inst_FAC7AC4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Test_Tree_Object" x="352" y="288" name="inst_FAC7AC4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Test_Door_Object" x="1114" y="486" name="inst_C3AB3560" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Test_Health_Overlay_Object" x="0" y="0" name="inst_F328FBBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Test_Heart_Object" x="7" y="12" name="inst_8BCEBD46" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
