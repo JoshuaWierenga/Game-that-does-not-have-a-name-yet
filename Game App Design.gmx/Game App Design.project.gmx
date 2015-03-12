@@ -29,6 +29,8 @@
     <object>objects\Test_Objective_Overlay_Object</object>
     <object>objects\Test_Floor_Object</object>
     <object>objects\Test_Player_Object</object>
+    <object>objects\Physics_Moving</object>
+    <object>objects\Physics_Solid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Test_Room</room>
