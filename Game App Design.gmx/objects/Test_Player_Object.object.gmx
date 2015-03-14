@@ -38,22 +38,27 @@
         </arguments>
       </action>
     </event>
+<<<<<<< HEAD
     <event eventtype="10" enumb="39">
+=======
+    <event eventtype="3" enumb="0">
+>>>>>>> origin/master
       <action>
         <libid>1</libid>
-        <id>541</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sprite_set</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
+<<<<<<< HEAD
             <kind>5</kind>
             <sprite>Test_Player</sprite>
           </argument>
@@ -84,6 +89,37 @@
           <argument>
             <kind>0</kind>
             <string>30</string>
+=======
+            <kind>1</kind>
+            <string>if (keyboard_check(vk_right)&amp;&amp;place_free(x-3,y)) x -=3;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="39">
+      <action>
+        <libid>1</libid>
+        <id>541</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sprite_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>Test_Player</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+>>>>>>> origin/master
           </argument>
           <argument>
             <kind>0</kind>
@@ -107,7 +143,7 @@
   <PhysicsShapePoints>
     <point>0,0</point>
     <point>112,0</point>
-    <point>112,192</point>
-    <point>0,192</point>
+    <point>112,176</point>
+    <point>0,176</point>
   </PhysicsShapePoints>
 </object>
