@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>physics_apply_local_force(80, 0, 200, 0);
-physics_apply_torque(-100);
+            <string>physics_apply_local_force(50, 90, 400, 0);
+physics_apply_torque(-400);
 </string>
           </argument>
         </arguments>
@@ -49,8 +49,8 @@ physics_apply_torque(-100);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>physics_apply_local_force(80, 120, -200, 0);
-physics_apply_torque(100);
+            <string>physics_apply_local_force(60, 90, -400, 0);
+physics_apply_torque(400);
 </string>
           </argument>
         </arguments>
