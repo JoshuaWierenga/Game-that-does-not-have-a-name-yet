@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="Physics_Moving">
+    <event eventtype="4" ename="Physics_Solid">
       <action>
         <libid>1</libid>
         <id>605</id>
@@ -30,7 +30,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="Physics_Solid">
+    <event eventtype="4" ename="Physics_Moving">
       <action>
         <libid>1</libid>
         <id>605</id>
