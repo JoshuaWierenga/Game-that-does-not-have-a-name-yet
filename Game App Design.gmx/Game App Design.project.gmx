@@ -19,6 +19,10 @@
     <background>background\Gray</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\ScreenSize.gml</script>
+  </scripts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\Test_Tree_Object</object>
     <object>objects\Test_Door_Object</object>
@@ -39,6 +43,11 @@
       <object>objects\Physics_Solid</object>
       <object>objects\Physics_Moving</object>
       <object>objects\Physics_Player</object>
+    </objects>
+    <objects name="System">
+      <object>objects\Obj_ScreenSize</object>
+      <object>objects\Obj_main</object>
+      <object>objects\Obj_Touch</object>
     </objects>
   </objects>
   <rooms name="rooms">
