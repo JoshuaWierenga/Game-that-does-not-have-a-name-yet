@@ -61,7 +61,6 @@
     <instance objName="Test_Key_Object" x="576" y="288" name="inst_A215A170" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="1694498815" rotation="350"/>
     <instance objName="Test_Objective_Overlay_Object" x="0" y="58" name="inst_EE4266D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Test_Player_Object" x="192" y="288" name="inst_06429D37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obj_ScreenSize" x="160" y="0" name="inst_2C298336" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

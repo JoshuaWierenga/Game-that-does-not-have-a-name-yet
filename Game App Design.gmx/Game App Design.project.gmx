@@ -20,7 +20,8 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\ScreenSize.gml</script>
+    <script>scripts\Movement.gml</script>
+    <script>scripts\Touch_Movement.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Test_Tree_Object</object>
@@ -31,8 +32,6 @@
     <object>objects\Test_Floor_Object</object>
     <objects name="Test_Player">
       <object>objects\Test_Player_Object</object>
-      <object>objects\Test_Player_Left_Object</object>
-      <object>objects\Test_Player_Right_Object</object>
     </objects>
     <objects name="Test_Overlay">
       <object>objects\Test_Health_Overlay_Object</object>
@@ -41,12 +40,6 @@
     <objects name="Physics">
       <object>objects\Physics_Solid</object>
       <object>objects\Physics_Moving</object>
-      <object>objects\Physics_Player</object>
-    </objects>
-    <objects name="System">
-      <object>objects\Obj_ScreenSize</object>
-      <object>objects\Obj_main</object>
-      <object>objects\Obj_Touch</object>
     </objects>
   </objects>
   <rooms name="rooms">
