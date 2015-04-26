@@ -22,7 +22,6 @@
   <scripts name="scripts">
     <script>scripts\ScreenSize.gml</script>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\Test_Tree_Object</object>
     <object>objects\Test_Door_Object</object>
