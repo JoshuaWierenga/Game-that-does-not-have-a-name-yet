@@ -25,6 +25,7 @@
     <script>scripts\Touch_Movement.gml</script>
     <script>scripts\Draw_Dpad.gml</script>
     <script>scripts\Draw_Overlay.gml</script>
+    <script>scripts\Screen_Size.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Test_Tree_Object</object>
