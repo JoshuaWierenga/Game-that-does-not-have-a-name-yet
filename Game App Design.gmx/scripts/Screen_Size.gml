@@ -1,5 +1,5 @@
-var base_w = 640;
-var base_h = 480;
+var base_w = display_get_gui_width / 2;
+var base_h = display_get_height / 2;
 var aspect = display_get_width() / display_get_height();
 if (aspect > 1)
     {
