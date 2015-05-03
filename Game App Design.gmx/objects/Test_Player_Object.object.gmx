@@ -146,9 +146,9 @@ if global.hp &lt;1 game_end()
             <kind>1</kind>
             <string>if (hurt = 0)
    {
-        //global.hp -=1
-        //hurt = 1
-        //alarm[0] = 30
+        global.hp -=1
+        hurt = 1
+        alarm[0] = 30
    }
 </string>
           </argument>
