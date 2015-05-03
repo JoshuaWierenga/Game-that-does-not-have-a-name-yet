@@ -15,6 +15,7 @@
     <sprite>sprites\Test_Floor</sprite>
     <sprite>sprites\Test_Player</sprite>
     <sprite>sprites\Test_Touch_Arrow</sprite>
+    <sprite>sprites\Test_enemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
@@ -25,27 +26,20 @@
     <script>scripts\Touch_Movement.gml</script>
     <script>scripts\Draw_Dpad.gml</script>
     <script>scripts\Draw_Overlay.gml</script>
-    <script>scripts\Health_Bar.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Test_Player_Object</object>
     <object>objects\Test_Tree_Object</object>
     <object>objects\Test_Door_Object</object>
-    <object>objects\Test_Heart_Object</object>
     <object>objects\Test_Key_Object</object>
     <object>objects\Test_Crate_Object</object>
     <object>objects\Test_Floor_Object</object>
-    <objects name="Test_Overlay">
-      <object>objects\Test_Health_Overlay_Object</object>
-      <object>objects\Test_Objective_Overlay_Object</object>
-      <object>objects\Test_Touch_Arrow_Left</object>
-      <object>objects\Test_Touch_Arrow_Right</object>
-    </objects>
     <objects name="Physics">
       <object>objects\Physics_Solid</object>
       <object>objects\Physics_Moving</object>
     </objects>
     <object>objects\obj_Control</object>
+    <object>objects\Test_enemy_Object</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Test_Room</room>

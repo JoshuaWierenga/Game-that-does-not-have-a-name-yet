@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>0</xoffset>
-    <yoffset>0</yoffset>
+    <xoffset>-63</xoffset>
+    <yoffset>-105</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="Gray" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
@@ -57,6 +57,7 @@
     <instance objName="Test_Key_Object" x="576" y="288" name="inst_A215A170" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="1694498815" rotation="350"/>
     <instance objName="Test_Player_Object" x="192" y="288" name="inst_06429D37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Control" x="64" y="192" name="inst_9386831A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Test_enemy_Object" x="864" y="544" name="inst_F708E527" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
