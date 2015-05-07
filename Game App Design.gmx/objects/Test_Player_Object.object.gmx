@@ -27,8 +27,6 @@
             <kind>1</kind>
             <string>image_speed = 0;
 hurt = 0;
-phy_fixed_rotation = true;
-
 </string>
           </argument>
         </arguments>
