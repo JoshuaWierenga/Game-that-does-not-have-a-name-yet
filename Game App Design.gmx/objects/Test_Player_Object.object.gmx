@@ -144,7 +144,7 @@ else
     {
         image_alpha = 1;
     }
-if global.hp &lt;1 game_end()
+if global.hp &lt;1 game_restart();
 </string>
           </argument>
         </arguments>
