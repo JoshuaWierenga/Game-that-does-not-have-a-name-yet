@@ -28,22 +28,22 @@
             <string>/// Apply force
 
 // Direction straight to player
-var dir_toPlayer = point_direction( x, y, Test_Player_Object.x, Test_Player_Object.y );
+var dir_toPlayer = point_direction( x, y, Test_Player_Object.x, Test_Player_Object.y);
 // Direction where the object is moving
-var dir_velocity = point_direction( x, y, x+phy_speed_x, y+phy_speed_y )
+var dir_velocity = point_direction( x, y, x+phy_speed_x, y+phy_speed_y);
 
 // Project the velocity vector of the object onto the vector perpendicular to direction to player
 var projection = dot_product( lengthdir_x( phy_speed, dir_velocity ), lengthdir_y( phy_speed, dir_velocity ), lengthdir_x( 1, dir_toPlayer + 90 ), lengthdir_y( 1, dir_toPlayer + 90) );
 // Apply a force opposite to the projection to counteract orbital speed
 var force_x = lengthdir_x( -projection, dir_toPlayer + 90 );
-var force_y = lengthdir_y( -projection, dir_toPlayer + 90 );
+var force_y = lengthdir_y( -projection, dir_toPlayer);
 physics_apply_impulse(x, y, force_x, force_y );
 
 // Apply a force towards player
-var force_attraction = min( 4, (point_distance( x, y, Test_Player_Object.x, Test_Player_Object.y )-32)/10 );
+var force_attraction = min( 4, (point_distance( x, y, Test_Player_Object.x, Test_Player_Object.y)-32)/10 );
 force_x = lengthdir_x( force_attraction, dir_toPlayer );
 force_y = lengthdir_y( force_attraction, dir_toPlayer );
-physics_apply_impulse( x, y, force_x*0.52, force_y*0.50 );
+physics_apply_impulse( x, y, force_x*0.52, force_y);
 </string>
           </argument>
         </arguments>
