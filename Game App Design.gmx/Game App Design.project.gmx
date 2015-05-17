@@ -15,6 +15,9 @@
     <sprite>sprites\Test_Floor</sprite>
     <sprite>sprites\Test_Player</sprite>
     <sprite>sprites\Test_enemy</sprite>
+    <sprites name="Menu">
+      <sprite>sprites\Spr_Start_Game</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
@@ -24,6 +27,8 @@
     <script>scripts\Movement.gml</script>
     <script>scripts\Touch_Movement.gml</script>
     <script>scripts\Draw_Overlay.gml</script>
+    <script>scripts\Draw_Menu.gml</script>
+    <script>scripts\Touch_Menu.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Test_Player_Object</object>
@@ -38,8 +43,10 @@
     </objects>
     <object>objects\obj_Control</object>
     <object>objects\Test_enemy_Object</object>
+    <object>objects\obj_Menu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Main_Menu</room>
     <room>rooms\Test_Room</room>
     <room>rooms\room1</room>
   </rooms>
