@@ -10,13 +10,17 @@ else
 if file_exists("Save.sav")
 {
     ini_open("Save.sav")
-    LoadedRoom = ini_read_real("Save", "room", Test_Room);
+    var LoadedRoom = ini_read_real("Save", "room", Test_Room);
     ini_close();
-}
-
-if LoadedRoom > 1
-{
-    draw_text_transformed(450, 365, "Continue Game", 2, 2, 0);
+    
+    if LoadedRoom > 1
+    {
+        draw_text_transformed(450, 365, "Continue Game", 2, 2, 0);
+    }
+    else
+    {
+        draw_text_transformed(480, 365, "Start Game", 2, 2, 0);
+    }
 }
 else
 {
