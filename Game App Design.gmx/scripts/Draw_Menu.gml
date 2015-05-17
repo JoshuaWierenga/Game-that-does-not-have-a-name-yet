@@ -7,4 +7,18 @@ else
     draw_sprite_ext(Spr_Start_Game,0,384,320,1.48,0.90,0.00,c_white,1);    
 }
 
-draw_text_transformed(480, 365, "Start Game", 2, 2, 0);
+if file_exists("Save.sav")
+{
+    ini_open("Save.sav")
+    LoadedRoom = ini_read_real("Save", "room", Test_Room);
+    ini_close();
+}
+
+if LoadedRoom > 1
+{
+    draw_text_transformed(450, 365, "Continue Game", 2, 2, 0);
+}
+else
+{
+    draw_text_transformed(480, 365, "Start Game", 2, 2, 0);
+}

@@ -1,4 +1,4 @@
-if file_exists("Save.sav")
+if (file_exists("Save.sav"))
 {
     ini_open("Save.sav");
     var LoadedRoom = ini_read_real("Save", "room", Test_Room);
@@ -8,5 +8,5 @@ if file_exists("Save.sav")
 }
 else
 {
-
+   room_goto(Test_Room);
 }
