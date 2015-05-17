@@ -14,7 +14,6 @@
     <sprite>sprites\Test_Overlays</sprite>
     <sprite>sprites\Test_Floor</sprite>
     <sprite>sprites\Test_Player</sprite>
-    <sprite>sprites\Test_Touch_Arrow</sprite>
     <sprite>sprites\Test_enemy</sprite>
   </sprites>
   <backgrounds name="background">
