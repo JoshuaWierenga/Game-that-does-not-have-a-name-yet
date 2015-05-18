@@ -26,6 +26,7 @@
   <scripts name="scripts">
     <script>scripts\Movement.gml</script>
     <script>scripts\Touch_Movement.gml</script>
+    <script>scripts\Draw_Dpad.gml</script>
     <script>scripts\Draw_Overlay.gml</script>
     <script>scripts\Draw_Menu.gml</script>
     <script>scripts\Touch_Menu.gml</script>
