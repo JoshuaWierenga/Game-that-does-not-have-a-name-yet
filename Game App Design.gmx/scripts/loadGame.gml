@@ -8,5 +8,5 @@ if (file_exists("Save.sav"))
 }
 else
 {
-   room_goto(Test_Room);
+   room_goto_next();
 }
