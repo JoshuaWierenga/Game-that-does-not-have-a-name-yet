@@ -46,7 +46,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>Touch_Movement</script>
+            <script>Draw_Touch_Buttons</script>
           </argument>
           <argument>
             <kind>0</kind>
