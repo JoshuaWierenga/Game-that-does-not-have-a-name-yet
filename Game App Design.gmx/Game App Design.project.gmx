@@ -33,7 +33,6 @@
     <script>scripts\Touch_Menu.gml</script>
     <script>scripts\saveGame.gml</script>
     <script>scripts\loadGame.gml</script>
-    <script>scripts\Touch_Movement.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Test_Player_Object</object>
