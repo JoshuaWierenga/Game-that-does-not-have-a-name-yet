@@ -13,23 +13,46 @@
     <sprite>sprites\Test_Crate</sprite>
     <sprite>sprites\Test_Overlays</sprite>
     <sprite>sprites\Test_Floor</sprite>
+    <sprite>sprites\Test_Player</sprite>
+    <sprite>sprites\Test_Touch_Arrow</sprite>
+    <sprite>sprites\Test_enemy</sprite>
+    <sprites name="Menu">
+      <sprite>sprites\Spr_Start_Game</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Movement.gml</script>
+    <script>scripts\Draw_Touch_Buttons.gml</script>
+    <script>scripts\Draw_Dpad.gml</script>
+    <script>scripts\Draw_Overlay.gml</script>
+    <script>scripts\Draw_Menu.gml</script>
+    <script>scripts\Touch_Menu.gml</script>
+    <script>scripts\saveGame.gml</script>
+    <script>scripts\loadGame.gml</script>
+  </scripts>
   <objects name="objects">
+    <object>objects\Test_Player_Object</object>
     <object>objects\Test_Tree_Object</object>
     <object>objects\Test_Door_Object</object>
-    <object>objects\Test_Heart_Object</object>
     <object>objects\Test_Key_Object</object>
     <object>objects\Test_Crate_Object</object>
-    <object>objects\Test_Health_Overlay_Object</object>
-    <object>objects\Test_Objective_Overlay_Object</object>
     <object>objects\Test_Floor_Object</object>
+    <objects name="Physics">
+      <object>objects\Physics_Solid</object>
+      <object>objects\Physics_Moving</object>
+    </objects>
+    <object>objects\obj_Control</object>
+    <object>objects\Test_enemy_Object</object>
+    <object>objects\obj_Menu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Main_Menu</room>
     <room>rooms\Test_Room</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
