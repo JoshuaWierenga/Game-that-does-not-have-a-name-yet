@@ -293,7 +293,7 @@ if (place_meeting(x, y+161, Test_Touch_Arrow))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart()
+            <string>room_restart()
 </string>
           </argument>
         </arguments>
