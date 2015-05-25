@@ -292,7 +292,7 @@ if physics_test_overlap(x, y, 0, Test_Floor_Object)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart()
+            <string>room_restart()
 </string>
           </argument>
         </arguments>

@@ -13,5 +13,5 @@ if keyboard_check_pressed(vk_space) && jump = 1
     phy_fixed_rotation = true;
     Test_Player_Object.alarm[1] = 96;
     physics_apply_impulse(90,60,0,-500);
-    jump = 0;                   
+	jump-=1;                   
 }
