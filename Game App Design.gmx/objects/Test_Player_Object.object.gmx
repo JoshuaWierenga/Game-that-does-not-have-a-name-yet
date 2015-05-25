@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>image_speed = 0;
 hurt = 0;
-jump = 1;
 </string>
           </argument>
         </arguments>
@@ -167,9 +166,9 @@ if global.hp &lt;1 room_restart();
           <argument>
             <kind>1</kind>
             <string>//Jumping
-if (place_meeting(x, y+161, Test_Touch_Arrow))
+if physics_test_overlap(x, y, 0, Test_Floor_Object)
 {
-    jump = 1
+    jump = 1;
 }
 </string>
           </argument>
