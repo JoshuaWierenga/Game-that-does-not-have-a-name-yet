@@ -19,6 +19,7 @@
     <sprites name="Menu">
       <sprite>sprites\Spr_Start_Game</sprite>
     </sprites>
+    <sprite>sprites\Floor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
