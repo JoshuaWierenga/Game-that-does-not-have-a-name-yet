@@ -51,7 +51,6 @@
     <object>objects\obj_Menu</object>
     <object>objects\Ground</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room3</room>
     <room>rooms\Main_Menu</room>
