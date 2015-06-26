@@ -26,6 +26,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\TUT.gml</script>
     <script>scripts\Movement.gml</script>
     <script>scripts\Draw_Touch_Buttons.gml</script>
     <script>scripts\Draw_Dpad.gml</script>
@@ -50,10 +51,12 @@
     <object>objects\Test_enemy_Object</object>
     <object>objects\obj_Menu</object>
     <object>objects\Ground</object>
+    <object>objects\object13</object>
+    <object>objects\TUT_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
-    <room>rooms\room3</room>
+    <room>rooms\First_Room</room>
     <room>rooms\Test_Room</room>
     <room>rooms\room1</room>
   </rooms>
