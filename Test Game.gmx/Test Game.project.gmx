@@ -20,6 +20,7 @@
       <sprite>sprites\Spr_Start_Game</sprite>
     </sprites>
     <sprite>sprites\Floor</sprite>
+    <sprite>sprites\InvisWall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
@@ -51,8 +52,8 @@
     <object>objects\Test_enemy_Object</object>
     <object>objects\obj_Menu</object>
     <object>objects\Ground</object>
-    <object>objects\object13</object>
     <object>objects\TUT_obj</object>
+    <object>objects\InvisWall_Object</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
