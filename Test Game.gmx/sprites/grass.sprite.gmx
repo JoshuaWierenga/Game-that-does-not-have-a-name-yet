@@ -8,8 +8,8 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>686</bbox_right>
-  <bbox_top>57</bbox_top>
+  <bbox_right>336</bbox_right>
+  <bbox_top>91</bbox_top>
   <bbox_bottom>511</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -17,10 +17,9 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>687</width>
+  <width>337</width>
   <height>512</height>
   <frames>
-    <frame index="0">images\Floor_0.png</frame>
-    <frame index="1">images\Floor_1.png</frame>
+    <frame index="0">images\grass_0.png</frame>
   </frames>
 </sprite>

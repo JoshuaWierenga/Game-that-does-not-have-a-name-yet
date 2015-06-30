@@ -6,21 +6,26 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Test_Tree</sprite>
-    <sprite>sprites\Test_Door</sprite>
-    <sprite>sprites\Test_Heart</sprite>
-    <sprite>sprites\Test_Key</sprite>
-    <sprite>sprites\Test_Crate</sprite>
-    <sprite>sprites\Test_Overlays</sprite>
-    <sprite>sprites\Test_Floor</sprite>
-    <sprite>sprites\Test_Player</sprite>
-    <sprite>sprites\Test_Touch_Arrow</sprite>
-    <sprite>sprites\Test_enemy</sprite>
-    <sprites name="Menu">
-      <sprite>sprites\Spr_Start_Game</sprite>
-    </sprites>
-    <sprite>sprites\Floor</sprite>
     <sprite>sprites\InvisWall</sprite>
+    <sprites name="Stuff that NEED's new textures">
+      <sprite>sprites\Test_Door</sprite>
+      <sprite>sprites\Test_Heart</sprite>
+      <sprite>sprites\Test_Tree</sprite>
+      <sprite>sprites\Test_Key</sprite>
+      <sprite>sprites\Test_Crate</sprite>
+      <sprite>sprites\Test_Overlays</sprite>
+      <sprite>sprites\Test_Floor</sprite>
+      <sprite>sprites\Test_Player</sprite>
+      <sprite>sprites\Test_Touch_Arrow</sprite>
+      <sprite>sprites\Test_enemy</sprite>
+      <sprites name="Menu">
+        <sprite>sprites\Spr_Start_Game</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Stuff could do with new textures">
+      <sprite>sprites\grass</sprite>
+      <sprite>sprites\grassHill</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
@@ -38,22 +43,29 @@
     <script>scripts\loadGame.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\Test_Player_Object</object>
-    <object>objects\Test_Tree_Object</object>
-    <object>objects\Test_Door_Object</object>
-    <object>objects\Test_Key_Object</object>
-    <object>objects\Test_Crate_Object</object>
-    <object>objects\Test_Floor_Object</object>
-    <objects name="Physics">
-      <object>objects\Physics_Solid</object>
-      <object>objects\Physics_Moving</object>
-    </objects>
-    <object>objects\obj_Control</object>
-    <object>objects\Test_enemy_Object</object>
-    <object>objects\obj_Menu</object>
-    <object>objects\Ground</object>
     <object>objects\TUT_obj</object>
     <object>objects\InvisWall_Object</object>
+    <objects name="Stuff that NEED's new textures">
+      <object>objects\Test_Door_Object</object>
+      <object>objects\Test_Tree_Object</object>
+      <object>objects\Test_Key_Object</object>
+      <object>objects\Test_Crate_Object</object>
+      <object>objects\Test_Floor_Object</object>
+      <object>objects\Test_Player_Object</object>
+      <object>objects\Test_enemy_Object</object>
+    </objects>
+    <objects name="Control Objects">
+      <object>objects\obj_Menu</object>
+      <object>objects\obj_Control</object>
+      <objects name="Physics">
+        <object>objects\Physics_Solid</object>
+        <object>objects\Physics_Moving</object>
+      </objects>
+    </objects>
+    <objects name="Stuff could do with new textures">
+      <object>objects\Grass_object</object>
+      <object>objects\grassHill_object</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
