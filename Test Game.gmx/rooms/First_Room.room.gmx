@@ -66,6 +66,7 @@
     <instance objName="Grass_object" x="320" y="448" name="inst_8404EECB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Grass_object" x="640" y="448" name="inst_8A96389C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="grassHill_object" x="960" y="448" name="inst_FBF08D71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Test_Door_Object" x="1963" y="445" name="inst_D71F79D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
