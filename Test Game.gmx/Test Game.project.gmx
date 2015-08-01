@@ -40,6 +40,7 @@
     <script>scripts\Touch_Menu.gml</script>
     <script>scripts\saveGame.gml</script>
     <script>scripts\loadGame.gml</script>
+    <script>scripts\Reset.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Control Objects">
