@@ -13,7 +13,7 @@ if file_exists("Save.sav")
     var LoadedRoom = ini_read_real("Save", "room", Test_Room);
     ini_close();
     
-     draw_text_transformed(0, 0, "Remove Saves : Dev Button", 1, 1, 30);
+     draw_text_transformed(0, 0, "Remove Saves : Dev Button", 1, 1, 0);
     
     if LoadedRoom > 1
     {

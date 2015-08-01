@@ -12,7 +12,6 @@
       <sprite>sprites\Test_Heart</sprite>
       <sprite>sprites\Test_Tree</sprite>
       <sprite>sprites\Test_Key</sprite>
-      <sprite>sprites\Test_Crate</sprite>
       <sprite>sprites\Test_Overlays</sprite>
       <sprite>sprites\Test_Floor</sprite>
       <sprite>sprites\Test_Player</sprite>
@@ -22,9 +21,9 @@
         <sprite>sprites\Spr_Start_Game</sprite>
       </sprites>
     </sprites>
-    <sprites name="Stuff could do with new textures">
-      <sprite>sprites\grass</sprite>
-      <sprite>sprites\grassHill</sprite>
+    <sprites name="Floor">
+      <sprite>sprites\Grass</sprite>
+      <sprite>sprites\Gray_Blocks</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -43,6 +42,14 @@
     <script>scripts\loadGame.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="Control Objects">
+      <object>objects\obj_Menu</object>
+      <object>objects\obj_Control</object>
+    </objects>
+    <objects name="Physics_Objects">
+      <object>objects\Physics_Solid</object>
+      <object>objects\Physics_Moving</object>
+    </objects>
     <object>objects\TUT_obj</object>
     <object>objects\InvisWall_Object</object>
     <objects name="Stuff that NEED's new textures">
@@ -54,17 +61,8 @@
       <object>objects\Test_Player_Object</object>
       <object>objects\Test_enemy_Object</object>
     </objects>
-    <objects name="Control Objects">
-      <object>objects\obj_Menu</object>
-      <object>objects\obj_Control</object>
-      <objects name="Physics">
-        <object>objects\Physics_Solid</object>
-        <object>objects\Physics_Moving</object>
-      </objects>
-    </objects>
-    <objects name="Stuff could do with new textures">
+    <objects name="Floor">
       <object>objects\Grass_object</object>
-      <object>objects\grassHill_object</object>
     </objects>
   </objects>
   <rooms name="rooms">
