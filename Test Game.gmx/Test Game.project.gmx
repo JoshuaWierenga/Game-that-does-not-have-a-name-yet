@@ -55,13 +55,13 @@
       <object>objects\Test_Door_Object</object>
       <object>objects\Test_Tree_Object</object>
       <object>objects\Test_Key_Object</object>
-      <object>objects\Test_Crate_Object</object>
       <object>objects\Test_Floor_Object</object>
       <object>objects\Test_Player_Object</object>
       <object>objects\Test_enemy_Object</object>
     </objects>
     <objects name="Floor">
       <object>objects\Grass_object</object>
+      <object>objects\Gray_Blocks_Object</object>
     </objects>
   </objects>
   <rooms name="rooms">
