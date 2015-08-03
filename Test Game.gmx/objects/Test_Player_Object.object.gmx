@@ -73,7 +73,7 @@ phy_fixed_rotation = true;
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>Movement</script>
+            <script>Player_Movement</script>
           </argument>
           <argument>
             <kind>0</kind>

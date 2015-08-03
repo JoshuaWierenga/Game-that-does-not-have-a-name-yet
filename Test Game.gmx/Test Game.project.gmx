@@ -31,7 +31,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\Movement.gml</script>
+    <script>scripts\Player_Movement.gml</script>
     <script>scripts\Draw_Touch_Buttons.gml</script>
     <script>scripts\Draw_Dpad.gml</script>
     <script>scripts\Draw_Overlay.gml</script>
@@ -40,6 +40,7 @@
     <script>scripts\saveGame.gml</script>
     <script>scripts\loadGame.gml</script>
     <script>scripts\Reset.gml</script>
+    <script>scripts\Enemy_Movement.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Control Objects">
@@ -51,6 +52,8 @@
       <object>objects\Physics_Moving</object>
     </objects>
     <object>objects\InvisWall_Object</object>
+    <object>objects\Enemy_LeftWall_Object</object>
+    <object>objects\Enemy_RightWall_Object</object>
     <objects name="Stuff that NEED's new textures">
       <object>objects\Test_Door_Object</object>
       <object>objects\Test_Tree_Object</object>
