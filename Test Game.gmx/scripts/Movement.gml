@@ -1,16 +1,16 @@
 if keyboard_check(vk_left)
 {
-    physics_apply_local_force(60, 90, -200, 0);
+    physics_apply_force(x, y, -125, -20);
 }
 if keyboard_check(vk_right)
 {
-    physics_apply_local_force(60, 90, 200, 0);
+    physics_apply_force(x, y, 125, -20);
 }
 
-if keyboard_check_pressed(vk_space) && physics_test_overlap(x, y, 0, Physics_Solid)
+
+if keyboard_check_pressed(vk_space) && place_meeting(x, y+33, Physics_Solid)
 {
+    jumping = 1;
     //physics_apply_local_force(60,90,0,-400);
-    phy_fixed_rotation = true;
-    Test_Player_Object.alarm[1] = 96;
-    physics_apply_impulse(90,60,0,-650);                  
+    physics_apply_impulse(x,y,0,-112.5);                  
 }
