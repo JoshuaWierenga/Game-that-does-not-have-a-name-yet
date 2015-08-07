@@ -77,8 +77,10 @@
     <instance objName="Grass_object" x="1920" y="576" name="inst_CDFEB753" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Test_Door_Object" x="1964" y="453" name="inst_D71F79D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="InvisWall_Object" x="1984" y="0" name="inst_BFDFD931" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Object" x="928" y="416" name="inst_A796F2F1" locked="0" code="" scaleX="1" scaleY="0.25" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Object" x="800" y="480" name="inst_82550EF8" locked="0" code="" scaleX="0.75" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="800" y="480" name="inst_0132C627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="928" y="416" name="inst_4D760051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="832" y="480" name="inst_AE96A7ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="896" y="416" name="inst_47685511" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
