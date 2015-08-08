@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>Physics_Moving</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -28,6 +28,8 @@
             <string>alive = 1;
 enemy_movement = 1;
 phy_fixed_rotation = true;
+image_speed = 0;
+image_index = 0;
 </string>
           </argument>
         </arguments>
@@ -115,6 +117,7 @@ phy_fixed_rotation = true;
           <argument>
             <kind>1</kind>
             <string>enemy_movement = 0;
+image_index = 1;
 </string>
           </argument>
         </arguments>
@@ -137,8 +140,8 @@ phy_fixed_rotation = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-enemy_movement = 1;
+            <string>enemy_movement = 1;
+image_index = 0;
 </string>
           </argument>
         </arguments>
@@ -173,9 +176,9 @@ enemy_movement = 1;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>4,22</point>
-    <point>58,22</point>
-    <point>58,64</point>
-    <point>4,64</point>
+    <point>5.125,14</point>
+    <point>28,14</point>
+    <point>28,32</point>
+    <point>5.125,32</point>
   </PhysicsShapePoints>
 </object>
