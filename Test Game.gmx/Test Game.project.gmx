@@ -69,9 +69,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
-    <room>rooms\First_Room</room>
-    <room>rooms\Test_Room</room>
-    <room>rooms\room1</room>
+    <room>rooms\Room_One</room>
+    <room>rooms\Room_Two</room>
+    <room>rooms\Room_Three</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
