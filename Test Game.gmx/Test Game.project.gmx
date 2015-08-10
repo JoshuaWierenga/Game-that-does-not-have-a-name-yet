@@ -52,6 +52,7 @@
       <object>objects\Physics_Moving</object>
     </objects>
     <object>objects\InvisWall_Object</object>
+    <object>objects\No_jump_grass</object>
     <object>objects\Enemy_LeftWall_Object</object>
     <object>objects\Enemy_RightWall_Object</object>
     <objects name="Stuff that NEED's new textures">
@@ -69,9 +70,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
-    <room>rooms\First_Room</room>
-    <room>rooms\Test_Room</room>
-    <room>rooms\room1</room>
+    <room>rooms\Room_One</room>
+    <room>rooms\Room_Two</room>
+    <room>rooms\Room_Three</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

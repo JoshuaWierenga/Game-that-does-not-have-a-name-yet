@@ -385,8 +385,8 @@ if global.hp &lt;1 room_restart();
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,2</point>
-    <point>32,2</point>
-    <point>32,32</point>
+    <point>30,2</point>
+    <point>30,32</point>
     <point>0,32</point>
   </PhysicsShapePoints>
 </object>
