@@ -52,6 +52,7 @@
       <object>objects\Physics_Moving</object>
     </objects>
     <object>objects\InvisWall_Object</object>
+    <object>objects\No_jump_grass</object>
     <object>objects\Enemy_LeftWall_Object</object>
     <object>objects\Enemy_RightWall_Object</object>
     <objects name="Stuff that NEED's new textures">

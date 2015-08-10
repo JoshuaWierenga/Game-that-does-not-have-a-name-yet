@@ -10,19 +10,18 @@ else
 if file_exists("Save.sav")
 {
     ini_open("Save.sav")
-    var LoadedRoom = ini_read_real("Save", "room", "0");
-    LoadedRoom = real(base64_decode(LoadedRoom));
+    var LoadedRoom = ini_read_string("Save", "room", 0);
     ini_close();
     
-     draw_text_transformed(0, 0, "Remove Saves : Dev Button", 1, 1, 0);
+    draw_text_transformed(0, 0, "Remove Saves : Dev Button", 1, 1, 0);
     
-    if LoadedRoom >= 1
+    if (LoadedRoom == "MA==")
     {
-        draw_text_transformed(450, 365, "Continue Game", 2, 2, 0);
+        draw_text_transformed(480, 365, "Start Game", 2, 2, 0);
     }
     else
     {
-        draw_text_transformed(480, 365, "Start Game", 2, 2, 0);
+       draw_text_transformed(450, 365, "Continue Game", 2, 2, 0);
     }
 }
 else

@@ -1,10 +1,10 @@
 if keyboard_check(vk_left)
 {
-    physics_apply_force(x, y, -125, -20);
+    phy_speed_x = -8;
 }
 if keyboard_check(vk_right)
 {
-    physics_apply_force(x, y, 125, -20);
+    phy_speed_x = 8;
 }
 
 
