@@ -39,7 +39,7 @@
     <script>scripts\Touch_Menu.gml</script>
     <script>scripts\saveGame.gml</script>
     <script>scripts\loadGame.gml</script>
-    <script>scripts\Reset.gml</script>
+    <script>scripts\Other_Controls.gml</script>
     <script>scripts\Enemy_Movement.gml</script>
   </scripts>
   <objects name="objects">
