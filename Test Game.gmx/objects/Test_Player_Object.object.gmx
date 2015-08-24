@@ -28,6 +28,30 @@
             <string>image_speed = 0;
 hurt = 0;
 phy_fixed_rotation = true;
+nottouchingblocks = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>nottouchingblocks = 0;
 </string>
           </argument>
         </arguments>
@@ -152,6 +176,30 @@ if global.hp &lt;1 room_restart();
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="Blockside_Object">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>nottouchingblocks = 1;
+alarm[2] = 15;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="Test_enemy_Object">
       <action>
         <libid>1</libid>
@@ -170,11 +218,13 @@ if global.hp &lt;1 room_restart();
           <argument>
             <kind>1</kind>
             <string>if (hurt = 0)
-   {
-        global.hp -=1
-        hurt = 1
-        alarm[0] = 30
-   }
+{
+    global.hp -=1
+    hurt = 1
+    alarm[0] = 30
+}
+instance_create(384, 544, Test_Player_Object);
+instance_destroy();
 </string>
           </argument>
         </arguments>

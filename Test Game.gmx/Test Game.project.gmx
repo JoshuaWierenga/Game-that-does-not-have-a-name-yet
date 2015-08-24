@@ -41,6 +41,7 @@
     <script>scripts\loadGame.gml</script>
     <script>scripts\Other_Controls.gml</script>
     <script>scripts\Enemy_Movement.gml</script>
+    <script>scripts\Game_end.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Control Objects">
@@ -52,6 +53,7 @@
       <object>objects\Physics_Moving</object>
     </objects>
     <object>objects\InvisWall_Object</object>
+    <object>objects\Blockside_Object</object>
     <object>objects\Enemy_LeftWall_Object</object>
     <object>objects\Enemy_RightWall_Object</object>
     <objects name="Stuff that NEED's new textures">

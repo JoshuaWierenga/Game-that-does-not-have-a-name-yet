@@ -251,16 +251,20 @@
     <instance objName="Enemy_RightWall_Object" x="1504" y="512" name="inst_9996EA87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Enemy_RightWall_Object" x="1504" y="480" name="inst_FAE91F7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Test_enemy_Object" x="1344" y="512" name="inst_C00F1E22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="1184" y="576" name="inst_97072A4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="1184" y="608" name="inst_F70F5498" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="1280" y="576" name="inst_E4D53774" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="1280" y="608" name="inst_F4F91E54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Grass_object" x="1184" y="608" name="inst_C26DA51F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Grass_object" x="1280" y="608" name="inst_081FDF04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Grass_object" x="1280" y="576" name="inst_9C9FB9CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Grass_object" x="1184" y="576" name="inst_45B0BDB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="InvisWall_Object" x="736" y="320" name="inst_611B49FA" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InvisWall_Object" x="544" y="480" name="inst_611B49FA" locked="0" code="" scaleX="0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="InvisWall_Object" x="768" y="352" name="inst_88EF9D7F" locked="0" code="" scaleX="-0.00999999977648258" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="Blockside_Object" x="480" y="480" name="inst_D73544F2" locked="0" code="" scaleX="-0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blockside_Object" x="576" y="416" name="inst_DE5A33DE" locked="0" code="" scaleX="-0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blockside_Object" x="640" y="416" name="inst_1C9AD5A0" locked="0" code="" scaleX="0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blockside_Object" x="864" y="320" name="inst_131B16BB" locked="0" code="" scaleX="0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blockside_Object" x="1024" y="416" name="inst_50396959" locked="0" code="" scaleX="0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InvisWall_Object" x="928" y="416" name="inst_DF1D4526" locked="0" code="" scaleX="-0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InvisWall_Object" x="960" y="416" name="inst_29C80867" locked="0" code="" scaleX="-0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InvisWall_Object" x="768" y="320" name="inst_819681CB" locked="0" code="" scaleX="-0.00999999977648258" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
