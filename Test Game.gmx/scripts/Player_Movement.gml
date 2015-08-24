@@ -10,7 +10,7 @@ if nottouchingblocks == 0
     }
 }
 
-if keyboard_check_pressed(vk_space) && place_meeting(x, y+33, Physics_Solid)
+if keyboard_check_pressed(vk_space) && place_meeting(x, y+10, Physics_Solid)
 {
     jumping = 1;
     //physics_apply_local_force(60,90,0,-400);
