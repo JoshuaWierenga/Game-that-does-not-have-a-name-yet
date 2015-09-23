@@ -28,6 +28,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
+    <background>background\Blue</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
