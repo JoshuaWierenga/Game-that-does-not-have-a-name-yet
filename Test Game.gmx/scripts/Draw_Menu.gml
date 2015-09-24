@@ -10,12 +10,12 @@ else
 if file_exists("Save.sav")
 {
     ini_open("Save.sav")
-    var LoadedRoom = ini_read_string("Save", "room", 0);
+    var LoadedRoom = ini_read_string("Save", "room", 1);
     ini_close();
     
     draw_text_transformed(0, 0, "Remove Saves : Dev Button", 1, 1, 0);
     
-    if (LoadedRoom == "MA==")
+    if (LoadedRoom == "1")
     {
         draw_text_transformed(480, 365, "Start Game", 2, 2, 0);
     }

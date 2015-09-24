@@ -55,17 +55,15 @@
     <instance objName="obj_Control" x="32" y="32" name="inst_F5EA023C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="InvisWall_Object" x="0" y="288" name="inst_A5FF7847" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Test_Door_Object" x="1952" y="352" name="inst_D71F79D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="544" y="416" name="inst_0132C627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="608" y="352" name="inst_4D760051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="512" y="416" name="inst_AE96A7ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="576" y="352" name="inst_47685511" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="768" y="256" name="inst_5763B3E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="800" y="256" name="inst_DF32D115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="832" y="256" name="inst_3460129A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="960" y="352" name="inst_B97718CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Gray_Blocks_Floating_Object" x="992" y="352" name="inst_745AD57F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy_LeftWall_Object" x="1280" y="480" name="inst_F9E78A29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Enemy_RightWall_Object" x="1504" y="512" name="inst_9996EA87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="544" y="416" name="inst_0132C627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="608" y="352" name="inst_4D760051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="512" y="416" name="inst_AE96A7ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="576" y="352" name="inst_47685511" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="768" y="256" name="inst_5763B3E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="800" y="256" name="inst_DF32D115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="832" y="256" name="inst_3460129A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="960" y="352" name="inst_B97718CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Gray_Blocks_Object" x="992" y="352" name="inst_745AD57F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="InvisWall_Object" x="1984" y="224" name="inst_3E705B06" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Grass_object" x="1248" y="544" name="inst_C87FE346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Grass_object" x="1216" y="544" name="inst_FF32429D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -16,7 +16,39 @@ if (place_meeting(x, y+1, Grass_object))
     
 if (place_meeting(x+horspeed, y, Grass_object))
 {
-    
+    while(!place_meeting(x+sign(horspeed), y, Grass_object))
+    {
+        x += sign(horspeed);
+    }
+    horspeed = 0;
+}
+
+if (place_meeting(x+horspeed, y, Gray_Blocks_Object))
+{
+    while(!place_meeting(x+sign(horspeed), y, Gray_Blocks_Object))
+    {
+        x += sign(horspeed);
+    }
+    horspeed = 0;
+}
+
+
+if (place_meeting(x, y+verspeed, Grass_object))
+{
+    while(!place_meeting(x, y+sign(verspeed), Grass_object))
+    {
+        y += sign(verspeed);
+    }
+    verspeed = 0;
+}
+
+if (place_meeting(x, y+verspeed, Gray_Blocks_Object))
+{
+    while(!place_meeting(x, y+sign(verspeed), Gray_Blocks_Object))
+    {
+        y += sign(verspeed);
+    }
+    verspeed = 0;
 }
 
 x += horspeed;
