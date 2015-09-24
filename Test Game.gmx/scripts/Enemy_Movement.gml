@@ -1,13 +1,25 @@
-if alive = 1
+horspeed = dir * movespeed;
+verspeed += grav;
+
+if (place_meeting(x+horspeed, y, Grass_object))
 {
-    if enemy_movement = 1
+    while(!place_meeting(x+sign(horspeed), y, Grass_object))
     {
-        //physics_apply_impulse(x, y, 5, 0);
-        phy_speed_x = 4;
+        x += sign(horspeed);
     }
-    else
-    {
-        //physics_apply_impulse(x, y, -5, 0);
-        phy_speed_x = -4;
-    }
+    horspeed = 0;
+    
+    dir *= -1;
 }
+
+if (place_meeting(x, y+verspeed, Grass_object))
+{
+    while(!place_meeting(x, y+sign(verspeed), Grass_object))
+    {
+        y += sign(verspeed);
+    }
+    verspeed = 0;
+}
+
+x += horspeed;
+y += verspeed;

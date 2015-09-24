@@ -25,9 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alive = 1;
-enemy_movement = 1;
-phy_fixed_rotation = true;
+            <string>///Vars
+dir =-1;
+movespeed = 3;
+grav = 0.2;
+horspeed = 0;
+verspeed = 0;
 image_speed = 0;
 image_index = 0;
 </string>
@@ -73,28 +76,6 @@ image_index = 0;
           <argument>
             <kind>0</kind>
             <string></string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="Test_Floor_Object">
-      <action>
-        <libid>1</libid>
-        <id>605</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>Collision Detect</string>
           </argument>
         </arguments>
       </action>
