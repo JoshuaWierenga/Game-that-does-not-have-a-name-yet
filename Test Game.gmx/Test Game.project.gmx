@@ -28,7 +28,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Gray</background>
-    <background>background\Blue</background>
+    <background>background\Blue_level_one</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -49,12 +49,7 @@
       <object>objects\obj_Menu</object>
       <object>objects\obj_Control</object>
     </objects>
-    <objects name="Physics_Objects">
-      <object>objects\Physics_Solid</object>
-      <object>objects\Physics_Moving</object>
-    </objects>
     <object>objects\InvisWall_Object</object>
-    <object>objects\Blockside_Object</object>
     <object>objects\Enemy_LeftWall_Object</object>
     <object>objects\Enemy_RightWall_Object</object>
     <objects name="Stuff that NEED's new textures">

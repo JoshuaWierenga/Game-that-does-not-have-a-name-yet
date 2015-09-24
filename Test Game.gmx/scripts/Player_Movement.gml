@@ -9,12 +9,15 @@ horspeed = move * movespeed;
 
 if (verspeed < 10) verspeed += grav;
 
-if (place_meeting(x, y+1, Grass_object)) || (place_meeting(x, y+1, Gray_Blocks_Floating_Object))
+if (place_meeting(x, y+1, Grass_object))
 {
     verspeed = up_key * -jumpspeed;
 }
     
-
+if (place_meeting(x+horspeed, y, Grass_object))
+{
+    
+}
 
 x += horspeed;
 y += verspeed;
