@@ -82,6 +82,7 @@
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
     <room>rooms\Room_One</room>
+    <room>rooms\room4</room>
     <room>rooms\Room_Two</room>
     <room>rooms\Room_Three</room>
   </rooms>

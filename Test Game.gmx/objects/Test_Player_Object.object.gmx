@@ -29,7 +29,7 @@
 grav = 0.2;
 horspeed = 0;
 verspeed = 0;
-jumpspeed = 7;
+jumpspeed = 8;
 movespeed = 4;
 image_speed = 0;
 hurt = 0;
@@ -156,8 +156,8 @@ if global.hp &lt;1 room_restart();
     hurt = 1
     alarm[0] = 30
 }
-instance_create(384, 544, Test_Player_Object);
-instance_destroy();
+
+room_restart();
 </string>
           </argument>
         </arguments>
@@ -252,7 +252,14 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_restart()
+            <string>if (hurt = 0)
+{
+    global.hp -=1
+    hurt = 1
+    alarm[0] = 30
+}
+
+room_restart();
 </string>
           </argument>
         </arguments>

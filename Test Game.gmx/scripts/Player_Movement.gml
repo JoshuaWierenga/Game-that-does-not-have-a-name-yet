@@ -13,12 +13,26 @@ if (place_meeting(x, y+1, Grass_object))
 {
     verspeed = up_key * -jumpspeed;
 }
+
+if (place_meeting(x, y+1, Gray_Blocks_Object))
+{
+    verspeed = up_key * -jumpspeed;
+}
     
 if (place_meeting(x+horspeed, y, Grass_object))
 {
     while(!place_meeting(x+sign(horspeed), y, Grass_object))
     {
         x += sign(horspeed);
+    }
+    horspeed = 0;
+}
+
+if (place_meeting(x+horspeed, y, InvisWall_Object))
+{
+    while(!place_meeting(x+sign(horspeed), y, Grass_object))
+    {
+        x += -sign(horspeed);
     }
     horspeed = 0;
 }
@@ -31,7 +45,6 @@ if (place_meeting(x+horspeed, y, Gray_Blocks_Object))
     }
     horspeed = 0;
 }
-
 
 if (place_meeting(x, y+verspeed, Grass_object))
 {
