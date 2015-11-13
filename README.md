@@ -1,5 +1,5 @@
 ######Project management
-https://trello.com/b/xbF2lwCN/game-app-design
+https://trello.com/b/xbF2lwCN/game-that-does-not-have-a-name-yet-planning
 
 ######Testers Chat
 https://gamealphatesting.slack.com/
