@@ -54,6 +54,7 @@
     <scripts name="Other">
       <script>scripts\Game_end.gml</script>
       <script>scripts\Other_Controls.gml</script>
+      <script>scripts\Transitions.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -78,13 +79,14 @@
       <object>objects\Enemy_LeftWall_Object</object>
       <object>objects\InvisWall_Object</object>
     </objects>
+    <object>objects\sideslide</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
     <room>rooms\Room_One</room>
-    <room>rooms\room4</room>
     <room>rooms\Room_Two</room>
     <room>rooms\Room_Three</room>
+    <room>rooms\Room_Four</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
